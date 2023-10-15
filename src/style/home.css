@@ -1,0 +1,231 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+  /* raleway font */
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,500&display=swap');
+
+
+@keyframes identifier {
+      0%{bottom:0;}
+      50%{bottom:50px;}
+}
+  
+body {
+  position: relative;
+  height: 100%;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  position: absolute;
+} */
+.swiperone{
+  background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2017/01/h1-slide-1-background.jpg");
+  background-position:center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh; 
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.swipertwo{
+  background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2017/01/h1-slide-3-background.jpg");
+  background-position: center center;
+  width: 100%;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+.swiperthree{
+  background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2017/01/h1-slide-4-background.jpg");
+  background-position: center center;
+  width:100%;
+   height: 100vh;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.swiperone h3{
+   font-size: 44px;
+   font-weight: 300;
+   color: #fff;
+   line-height: 53px;
+   font-family: 'Raleway', sans-serif;
+   position: relative;
+   animation: identifier 2s linear ;
+   animation-delay: 2s;
+
+}
+.swiperone p{
+  font-size: 14px;
+  /* font-style: italic; */
+  font-weight: 400;
+  color: #fff;
+  line-height: 20px;
+  font-family: 'Playfair Display', serif;
+}
+.swipertwo h3{
+  font-size: 44px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 53px;
+font-family: 'Raleway', sans-serif;
+}
+.swipertwo p{
+ font-size: 14px;
+ /* font-style: italic; */
+ font-weight: 400;
+ color: #fff;
+ line-height: 20px;
+ font-family: 'Playfair Display', serif;
+}
+.swiperthree h3{
+  font-size: 44px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 53px;
+font-family: 'Raleway', sans-serif;
+}
+.swiperthree p{
+ font-size: 14px;
+ /* font-style: italic; */
+ font-weight: 400;
+ color: #fff;
+ line-height: 20px;
+ font-family: 'Playfair Display', serif;
+}
+.main-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 300px ;
+}
+.main-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px ;
+}
+.d-1{
+  margin-right: 80px;
+}
+.BiGlobeAlt{
+   font-size: 55px;
+   color: #4a3e5a; 
+   line-height: 26px;
+   font-weight: 400;
+}
+.BsSend{
+  font-size: 55px;
+  color: #4a3e5a; 
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.d-1 h3,.d-2 h3,.d-3 h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #4a3e5a;
+}
+
+.d-1 p,.d-2 p,.d-3 p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color:#808080;
+}
+.d-3{
+  align-items: center;
+}
+
+.section-3{
+  text-align: center;
+  /* padding-top: 100px; */
+  background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2016/12/h1-img-1.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+.section-3 h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  line-height: 62px;
+  color: #4a3e5a;
+  font-weight: 400;
+  /* margin-bottom: 60px; */
+}
+.section-3 p{
+  font-size: 16px;
+  /* font-style: italic; */
+  font-weight: 400;
+  color:656565;
+  line-height: 20px;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  /* margin-bottom: 60px; */
+  color: #808080;
+}
+.content{
+    padding: 10px;
+}
+.slider-2 .content p{
+        font-size: 15px;
+        font-weight: 400px;
+        line-height: 26px;
+        font-family: 'Raleway', sans-serif;
+        color:#808080;
+        font-style: normal;
+        border-bottom: 2px dotted #d7d3db; 
+        padding-bottom: 10px;
+}
+.slider-2 .content h4{
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 31px;
+  font-family: 'Raleway', sans-serif;
+  color:#4a3e5a;
+  padding-top: 30px;
+}
+.sq{
+  width: 7px;
+  height: 7px;
+  background-color: #d7d3db;
+  transform: rotate(45deg);
+}
+.mn h6{
+   padding-left: 10px;
+   padding-bottom: 10px;
+}
+
+
