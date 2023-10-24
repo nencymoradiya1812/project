@@ -7,6 +7,7 @@ import { AiOutlineSend } from "react-icons/ai";
 import { AiOutlineHeart } from "react-icons/ai";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../style/home.css";
+import 'animate.css';
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";

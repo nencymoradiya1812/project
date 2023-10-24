@@ -6,10 +6,12 @@ import Home from '../components/Home'
 import Pages from '../components/Pages'
 import Portfolio from '../components/Portfolio'
 import Product from '../components/Product'
-import Signup from '../components/Signup'
 import LoginSignup from '../pages/LoginSignup'
+// import Signup from '../components/Singlep'
+import Singlep from '../components/Singlep'
+import Cart from '../components/Cart'
 
-function Allroutes() {
+function Allroutes(e) {
   return (
     <div>
          <Routes>
@@ -20,7 +22,8 @@ function Allroutes() {
                 <Route path='/Element' element={<Elements/>}/>
                 <Route path='/Signup' element={<LoginSignup/>}/>
                 <Route path='/Product' element={<Product/>}/>
-               
+                <Route path='/Cart' element={<Cart/>}/>
+                <Route path='/Product/:id' element={<Singlep/>}/>
          </Routes>
     </div>
   )

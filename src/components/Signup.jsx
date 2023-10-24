@@ -3,7 +3,6 @@ import React from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { userSignup } from "../redux/action";
-
 function Signup() {
   const [name,setName]=useState("")
   const[email,setEmail]=useState("")
@@ -18,7 +17,7 @@ function Signup() {
         email:email,
         password:password
        }
-    axios.post(`http://localhost:4000/users`,obj) 
+    axios.post(`https://productfleur.onrender.com/users`,obj) 
     .then((res)=>{
         console.log(res.data)
         dispatch(userSignup())

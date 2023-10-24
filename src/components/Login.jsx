@@ -10,9 +10,9 @@ const val = useSelector(store=>store)
 const dispatch=useDispatch()
 const handleSubmit=(e)=>{
    e.preventDefault()
-   axios.get(`http://localhost:4000/users?email=${email}`)
+   axios.get(`https://productfleur.onrender.com/users?email=${email}`)
    .then((res)=>{
-    console.log(res.data)
+    console.log(res.data)   ()
       dispatch(userLogin(res.data[0]))
       alert("login successful")
    })
