@@ -12,25 +12,26 @@ function Nav() {
           <Link to={"/"} className="link">
             <img src="https://fleur.qodeinteractive.com/wp-content/uploads/2017/01/logo-light.png" alt=""  className="logo"/>
           </Link>
-          <Link to={"/Pages"} className="link">
-            PAGES
-          </Link>
-          <Link to={"/Portfolio"} className="link">
-            PORTFOLIO
-          </Link>
-          <Link to={"/Blog"} className="link">
-            BLOG
-          </Link>
           <Link to={"/Product"} className="link">
             PRODUCT
           </Link>
-          <Link to={"/Element"} className="link">
+          <Link to={"#"} className="link">
+            PAGES
+          </Link>
+          <Link to={"#"} className="link">
+            PORTFOLIO
+          </Link>
+          <Link to={"#"} className="link">
+            BLOG
+          </Link>
+       
+          <Link to={"#"} className="link">
             ELEMENT
           </Link>
-          <Link to={"/Signup"} className="link">
+          <Link to={"/Signup"} className="link" id="signup">
             <FaUser />
           </Link>
-          <Link to={"/Cart"} className="link">
+          <Link to={"/Cart"} className="link" id="cart">
             <BsFillCartCheckFill />
           </Link>
           {/* <Home/> */}

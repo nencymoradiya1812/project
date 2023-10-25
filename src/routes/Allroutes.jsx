@@ -17,11 +17,11 @@ function Allroutes(e) {
          <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/Pages' element={<Pages/>}/>
+                <Route path='/Product' element={<Product/>}/>
                 <Route path='/Portfolio' element={<Portfolio/>}/>
                 <Route path='/Blog' element={<Blog/>}/>
                 <Route path='/Element' element={<Elements/>}/>
                 <Route path='/Signup' element={<LoginSignup/>}/>
-                <Route path='/Product' element={<Product/>}/>
                 <Route path='/Cart' element={<Cart/>}/>
                 <Route path='/Product/:id' element={<Singlep/>}/>
          </Routes>
