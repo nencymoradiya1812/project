@@ -14,12 +14,11 @@
  vertical-align: middle;
  background-color: rgb(49 47 61);;
 }
-.nav img{
-    color:rgb(255, 255, 255);
-    padding-top: 8px;
-    font-style:normal;
-    font-weight: 800;
-    font-family: 'Dela Gothic One', cursive;
+.link img{
+    width: 50%;
+    height: 60%;
+    padding-left: 100px;
+    
 }
 .nav span{
     color: rgb(121 127 173);
