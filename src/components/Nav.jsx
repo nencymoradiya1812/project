@@ -9,7 +9,7 @@ function Nav() {
     <>
       <div>
         <div className="nav">
-          <Link to={"/Home"} className="link">
+          <Link to={"/"} className="link">
             <img src="https://fleur.qodeinteractive.com/wp-content/uploads/2017/01/logo-light.png" alt=""  className="logo"/>
           </Link>
           <Link to={"/Pages"} className="link">

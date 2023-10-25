@@ -15,7 +15,7 @@ function Allroutes(e) {
   return (
     <div>
          <Routes>
-                <Route path='/Home' element={<Home/>}/>
+                <Route path='/' element={<Home/>}/>
                 <Route path='/Pages' element={<Pages/>}/>
                 <Route path='/Portfolio' element={<Portfolio/>}/>
                 <Route path='/Blog' element={<Blog/>}/>
