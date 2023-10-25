@@ -16,7 +16,7 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  /* background: #fff; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,14 +164,16 @@ font-family: 'Raleway', sans-serif;
 
 .section-3{
   text-align: center;
-  /* padding-top: 100px; */
+  padding-top: 100px;
   background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2016/12/h1-img-1.jpg");
   width: 100%;
   height: 100vh;
   background-position: center center;
   background-attachment: fixed;
+  margin-bottom: 300px;
 
 }
+
 .section-3 h2{
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
@@ -180,6 +182,7 @@ font-family: 'Raleway', sans-serif;
   font-weight: 400;
   /* margin-bottom: 60px; */
 }
+
 .section-3 p{
   font-size: 16px;
   /* font-style: italic; */
@@ -217,10 +220,25 @@ font-family: 'Raleway', sans-serif;
   height: 7px;
   background-color: #d7d3db;
   transform: rotate(45deg);
+  margin-top: 8px;
 }
-.mn h6{
-   padding-left: 10px;
-   padding-bottom: 10px;
+.mn .style{
+   padding-left: 8px;
+   color: #808080;
+   font-size: 14px;
+   line-height: 26px;
+   font-weight: 400px;
+   font-family: 'Playfair Display', serif;
+   font-style: italic;
+
+}
+.mn .month{
+  padding-left: 180px;
+  Color: #7e7e7e;
+  line-height:26px;
+ font-size: 13px;
+ font-weight: 300px;
+  font-family:'Raleway', sans-serif ;
 }
 
 

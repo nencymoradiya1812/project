@@ -49,7 +49,7 @@ function Home() {
         </div>
       </div>
       <div className="section-3 ">
-        <div className="container">
+        <div className="container ">
           <h2>WE'RE SHARING EVERYTHING</h2>
           <div></div>
           <p>
@@ -75,8 +75,8 @@ function Home() {
               <p> Proin gravida nibh vel veliauctor aliquenean sollicitudiem quis bibendum auctor, nisi elit  bibendum auctor, nisi elit</p>
              <div className="d-flex mn">
              <div className="sq"></div>
-              <h6>fashion</h6>
-              <h6>January 24 2016</h6>
+              <h6 className="style">Fashion</h6>
+              <h6 className="month">January 24 2016</h6>
              </div>
              </div>
             </SwiperSlide>
@@ -88,6 +88,11 @@ function Home() {
              <div className="content">
              <h4>CHOOSE YOUR STYLE</h4>
               <p> Proin gravida nibh vel veliauctor aliquenean sollicitudiem quis bibendum auctor, nisi elit  bibendum auctor, nisi elit</p>
+              <div className="d-flex mn">
+             <div className="sq"></div>
+              <h6 className="style">Decoration</h6>
+              <h6 className="month">February 24 2016</h6>
+             </div>
              </div>
             </SwiperSlide>
             <SwiperSlide className="slider-2">
@@ -98,6 +103,11 @@ function Home() {
              <div className="content">
              <h4>WEDDING LIST</h4>
               <p> Proin gravida nibh vel veliauctor aliquenean sollicitudiem quis bibendum auctor, nisi elit  bibendum auctor, nisi elit</p>
+              <div className="d-flex mn">
+             <div className="sq"></div>
+              <h6 className="style">Planning</h6>
+              <h6 className="month">April 24 2016</h6>
+             </div>
              </div>
             </SwiperSlide>
             <SwiperSlide className="slider-2">
@@ -108,6 +118,11 @@ function Home() {
               <div className="content">
               <h4>SOMETHING SPECIAL</h4>
               <p> Proin gravida nibh vel veliauctor aliquenean sollicitudiem quis bibendum auctor, nisi elit  bibendum auctor, nisi elit</p>
+              <div className="d-flex mn">
+             <div className="sq"></div>
+              <h6 className="style">Design</h6>
+              <h6 className="month">March 24 2016</h6>
+             </div>
               </div>
             </SwiperSlide>
           </Swiper>
