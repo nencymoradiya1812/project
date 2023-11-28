@@ -128,6 +128,11 @@ function Home() {
           </Swiper>
         </div>
       </div>
+       <footer>
+         <div>
+          <p>name</p>
+         </div>
+       </footer>
     </div>
   );
 }

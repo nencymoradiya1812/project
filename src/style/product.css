@@ -7,7 +7,9 @@ img{
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
-
+.product-link{
+  text-decoration: none;
+}
 .ti-pri h3{
   font-size: 18px;
   font-weight: 500;
@@ -15,6 +17,7 @@ img{
   color: #4a3e5a;
   padding-top: 10px;
   font-family: 'Raleway', sans-serif;
+ 
 }
 
 .main-box h2 ,p {
@@ -29,19 +32,35 @@ img{
   font-family: 'Raleway', sans-serif;
   
 }
-.main-box p{
+.main-box .pp{
   font-size: 18px;
   line-height: 33px;
   font-weight: 400;
   color: #656565;
   font-family: 'Playfair Display', serif;
   font-style: italic;
-  
 }
+.main-div .price{
+   font-size: 18px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #656565;
+    font-family: 'Raleway', sans-serif;
+     text-align: left;
+}
+
 
 .f-s{
   background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2017/01/bridal-shop-background.jpg");
   width: 100%;
   height: 100vh;
-  
+}
+.main-box{
+  padding-top: 40px;
+}
+.s-3{
+  background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2016/06/bridal-shop-parallax-1.jpg");
+  width: 100%;
+  height: 100vh;
+  position: fixed;
 }

@@ -1,4 +1,4 @@
-import { Action } from "@remix-run/router";
+// import { Action } from "@remix-run/router";
 import { LOGIN, SIGNUP } from "./actiontype";
 
 let intial = {
