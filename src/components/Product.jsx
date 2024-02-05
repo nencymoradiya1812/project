@@ -19,6 +19,9 @@ function Product() {
     <div> 
     </div>
       <h2>RECOMENDED PRODUCTS</h2>
+      <div class="star-line">
+            <span class="square"></span>
+          </div>
       <p className="pp">Lorem ipsum dolor sit amet, consectetuer gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem niuis sed odio sit amet nibh</p>
       <div className="main-div">
       {data.map((e) => {

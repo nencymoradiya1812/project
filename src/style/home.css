@@ -169,7 +169,8 @@ font-family: 'Raleway', sans-serif;
   width: 100%;
   background-position: center center;
   background-attachment: fixed;
-  margin-bottom: 300px;
+  /* margin-bottom: 300px; 
+  position: fixed; */
 
 }
 
@@ -180,6 +181,40 @@ font-family: 'Raleway', sans-serif;
   color: #4a3e5a;
   font-weight: 400;
   /* margin-bottom: 60px; */
+}
+.square{
+  width: 5px;
+  height: 5px;
+  background-color: #4a3e5a;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  transform: rotate(45deg);
+  position: relative;
+  top: 5px;
+}
+.star-line {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 15px;
+  opacity: 5;
+}
+
+.star-line::before,
+.star-line::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color:#4a3e5a; /* Change the color as needed */
+  margin: 0 10px; /* Adjust the spacing as needed */
+}
+
+.star {
+  font-size: 24px; /* Adjust the font size as needed */
+  color:#4a3e5a; /* Change the color as needed */
 }
 
 .section-3 p{
@@ -239,8 +274,190 @@ font-family: 'Raleway', sans-serif;
  font-weight: 300px;
   font-family:'Raleway', sans-serif ;
 }
+.section-4{
+   display: flex;
+   padding-top: 100px;
+
+}
+.s4-content{
+  width: 40%;
+  padding-right: 10px;
+}
+.progressbar{
+  width: 60%;
+  padding-left: 100px;
+  padding-top: 10px;
+}
+#progress-container {
+  width: 700px;
+  overflow: hidden;
+}
+
+#progress-bar-1 ,#progress-bar-2,#progress-bar-3,#progress-bar-4{
+  background-color: #d8d4db;
+  height: 15px;
+  color: #4a3e5a;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 10px;
+  font-family: 'Playfair Display', serif;
+}
+.s4-content h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 32 px;
+  line-height: 1.1875em;
+  color: #4a3e5a;
+  font-weight: 400;
+
+  /* margin-bottom: 60px; */
+}
+.s4-content h3{
+    font-size: 18px;
+    color: #656565;
+    font-family: "Playfair Display",serif;
+    font-style: italic;
+    line-height: 1.85em;
+    margin: 0;
+}
+.s4-content p{
+  font-family:'Raleway', sans-serif ;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color:#808080;
+  text-align: justify;
+  margin-top: 10px;
+}
+.ps{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #656565;
+}
+.section-5{
+  background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2016/05/h1-parallax-1.jpg");
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+  background-attachment: fixed;
+}
+.section-5 h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  line-height: 62px;
+  color: #4a3e5a;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 100px;
+  /* margin-bottom: 60px; */
+}
+.section-5 p{
+  font-size: 18px;
+  /* font-style: italic; */
+  font-weight: 400;
+  color:656565;
+  line-height: 33px;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  /* margin-bottom: 60px; */
+  color: #808080;
+}
+.section-6{
+  padding-top: 100px;
+}
+.section-6 h1{
+  text-align: center;
+}
+.section-6 h3{
+  text-align: center;
+  font-size: 15px;
+  color: #808080;
+  font-family:'Raleway', sans-serif;
+  line-height: 26px;
+  padding-left: 5px;
+}
+.section-6 h1{
+color: #373737 ;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  width: 300px;
+  height: 300px;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Adjusted to cover the entire image */
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-item:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-content {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-item:hover .overlay-content {
+  opacity: 1;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+.counert-main{
+  display:flex;
+  margin: auto;
+  justify-content: space-around;
+}
+.counter-child{
+  font-family: 'Raleway', sans-serif;
+}
+.counter-child  h1,span{
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 59px;
+}
+.h1{
+   margin-bottom: 10px;
+}
+.icon{
+  color: #4a3e5a;
+  font-size: 50px;
+}
+.icon-div{
+text-align: center;
+}
 footer{
   background-color: gray;
 }
+
 
 

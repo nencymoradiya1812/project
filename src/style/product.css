@@ -48,6 +48,39 @@ img{
     font-family: 'Raleway', sans-serif;
      text-align: left;
 }
+.square{
+  width: 5px;
+  height: 5px;
+  background-color: #4a3e5a;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  transform: rotate(45deg);
+  position: relative;
+  top: 5px;
+}
+.star-line {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.star-line::before,
+.star-line::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color:#4a3e5a; /* Change the color as needed */
+  margin: 0 10px; /* Adjust the spacing as needed */
+}
+
+.star {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #000; /* Change the color as needed */
+}
 
 
 .f-s{
